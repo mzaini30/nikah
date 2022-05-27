@@ -9,7 +9,7 @@ import Inspector from "vite-plugin-vue-inspector"
 import yaml from 'vite-plugin-yaml2'
 import legacy from "@vitejs/plugin-legacy"
 
-const hostname = 'http://localhost:3000/'
+const hostname = 'https://mzaini30.js.org/nikah/'
 
 // https://vitejs.dev/config/
 export default defineConfig({

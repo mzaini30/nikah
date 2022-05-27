@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 // import routes from '~pages'
 import { createHead } from '@vueuse/head'
 import { setupLayouts } from 'virtual:generated-layouts'
@@ -13,7 +13,7 @@ const routes = setupLayouts(generatedRoutes)
 
 const router = createRouter({
   routes,
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition
