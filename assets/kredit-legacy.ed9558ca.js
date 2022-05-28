@@ -1,0 +1,1 @@
+System.register(["./index-legacy.78187e2d.js"],(function(e){"use strict";var r,t,n,u,s;return{setters:[function(e){r=e._,t=e.r,n=e.o,u=e.c,s=e.a}],execute:function(){var c={class:"prose p-3 mx-auto"};e("default",r({},[["render",function(e,r){var i=t("router-view");return n(),u("div",c,[s(i)])}]]))}}}));
