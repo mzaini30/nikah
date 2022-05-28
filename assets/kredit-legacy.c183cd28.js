@@ -1,0 +1,1 @@
+System.register(["./index-legacy.ab324944.js"],(function(e){"use strict";var r,t,n,u,s;return{setters:[function(e){r=e._,t=e.r,n=e.o,u=e.c,s=e.a}],execute:function(){var a={class:"prose p-3 mx-auto"};e("default",r({},[["render",function(e,r){var c=t("router-view");return n(),u("div",a,[s(c)])}]]))}}}));
