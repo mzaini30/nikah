@@ -1,0 +1,1 @@
+import{_ as o,r,o as t,c,a as s}from"./index.1d107dc6.js";const a={},n={class:"prose p-3 mx-auto"};function _(i,p){const e=r("router-view");return t(),c("div",n,[s(e)])}var m=o(a,[["render",_]]);export{m as default};
