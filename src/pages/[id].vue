@@ -1,20 +1,34 @@
-<template>
-	<div class="bg-zink-100 p-10">
-		<p>Undangan Pernikahan</p>
-		<p>Istri & Suami</p>
-		<p>Akan melangsungkan akad dan resepsi pada</p>
-		<p>Minggu, 1 Januari 2021</p>
+<script setup="">
+	import {Head} from '@vueuse/head'
+</script>
 
-		<p>بسم الله الرحمن الرحيم</p>
-		<p>السلام عليكم ورحمة الله وبركاته</p>
-		<p>Segala puji hanya bagi Allah subhanahu wa taala</p>
-		<p>Dengan mengharap ridho-Nya, kami:</p>
-		<p>Istri</p>
-		<p>Keluarga Pak Badru</p>
-		<p>&</p>
-		<p>Suami</p>
-		<p>Keluarga Pak Hasan</p>
-		<p>Berkeinginan mengikuti sunnah Rasulullah shallallahu alaihi wa sallam dalam membentuk keluarga sakinnah, mawaddah, wa rahmah.</p>
+<template>
+	<Head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+	</Head>
+	<div class="bg-zink-100 p-10">
+		<div class="text-center mb-10">
+			<p class="khusus my-7 text-3xl">Undangan Pernikahan</p>
+			<p><img src="/menikah.webp" alt="" /></p>
+			<p class="khusus my-3 text-xl">Istri & Suami</p>
+			<p class="text-sm mb-3">Akan melangsungkan akad dan resepsi pada</p>
+			<p class="font-bold">Minggu, 1 Januari 2021</p>
+		</div>
+
+		<div class="text-center text-sm bawah mb-10">
+			<p>بسم الله الرحمن الرحيم</p>
+			<p>السلام عليكم ورحمة الله وبركاته</p>
+			<p>Segala puji hanya bagi Allah subhanahu wa taala</p>
+			<p>Dengan mengharap ridho-Nya, kami:</p>
+			<p>Istri</p>
+			<p>Keluarga Pak Badru</p>
+			<p>&</p>
+			<p>Suami</p>
+			<p>Keluarga Pak Hasan</p>
+			<p>Berkeinginan mengikuti sunnah Rasulullah shallallahu alaihi wa sallam dalam membentuk keluarga sakinnah, mawaddah, wa rahmah.</p>
+		</div>
 
 		<p>Akad</p>
 		<p>Minggu, 1 Januari 2021 pukul 08.00</p>
@@ -41,6 +55,15 @@
 		<p>Istri & Suami</p>
 	</div>
 
-	<img src="/bungaAtas.png" class="fixed top-0 left-0 w-[10rem] h-auto" alt="" />
-	<img src="/bungaBawah.png" class="fixed w-[10rem] h-auto bottom-0 right-0" alt="" />
+	<img src="/bungaAtas.webp" class="fixed top-0 left-0 w-[10rem] h-auto" alt="" />
+	<img src="/bungaBawah.webp" class="fixed w-[10rem] h-auto bottom-0 right-0" alt="" />
 </template>
+
+<style scoped="">
+	.khusus {
+		font-family: 'Dancing Script', cursive;
+	}
+	.bawah p {
+		@apply mb-3
+	}
+</style>
