@@ -1,4 +1,4 @@
-# Lisensi
+# Kredit Gambar
 
 Flower: <https://www.vecteezy.com/vector-art/622224-hand-drawn-spring-flower-border-background-vector-illustration>
 
