@@ -1,6 +1,6 @@
 # Vue Starter 
 
-## Usibg Vue Editor
+## Using Vue Editor
 
 Add in `~/.bashrc`:
 
